@@ -1,0 +1,12 @@
+var modifiedHeaders = $request['headers'];
+modifiedHeaders['Cookie'] = 'sid=8d366sii; DedeUserID=399947407; DedeUserID__ckMd5=d3c3d9c4876af393; SESSDATA=7ed3a740%2C1722850183%2C1695bb21CjAILrpjjNWpSQOeWR1bZT-xuD3etyMcMqLwGFwaAf2_mywzZHu7vuMYdAakLyoIH10SVmI4UE42eV9uT3g0c19Pd1Q1MG8wUnRFZG9JUTZmWlZ3MDJKQmktdXJpRGNqaUp0bHpjbFdhcGFuUUtJVzVPZklkMmhGdFRpdmdScjcxc2VWeUVDeU5nIIEC; bili_jct=56af31315f529660899c320d5ca94419';
+modifiedHeaders['x-bili-device-bin'] = 'CAEQ5KGGJBokWUI0NkI5QjhFNzdENDdDNjRBQzE4RUUzQUY2NzFBMzNGODUwIgZpcGhvbmUqA2lvczIFcGhvbmU6BWFwcGxlQgVBcHBsZUoIaVBob25lIFhSBjE1LjcuMWoGNy41Ni4wckBBM0ZFOUVEODBFMTFFNkYxMTVBRDQ2MTI4QTk0MDlBMzIwMjAwMjI1MjIxMTIyRTU1Q0ZGRUU2RTJCMzI4MjI4eKvTmxc=';
+modifiedHeaders['Authorization'] = 'identify_v1 001cf732553f6dccedf8c8d2f39c2221CjAILrpjjNWpSQOeWR1bZT-xuD3etyMcMqLwGFwaAf2_mywzZHu7vuMYdAakLyoIH10SVm04NUJFQklwdVZlQWN3aUUwVFNLQjdsM2NjNlZ1T0NqUmtXSVpINWJVbzZSVTJ6UzB2eXVYcDhnRXFOckEtMG5SWFJZTDRhSVJVZjRSV0dVYVBmdE5nIIEC';
+modifiedHeaders['User-Agent'] = 'bili-universal/75600100 os/ios model/iPhone X mobi_app/iphone osVer/15.7.1 network/2';
+modifiedHeaders['buvid'] = 'YB46B9B8E77D47C64AC18EE3AF671A33F850';
+modifiedHeaders['x-bili-metadata-bin'] = 'CtwBMDAxY2Y3MzI1NTNmNmRjY2VkZjhjOGQyZjM5YzIyMjFDakFJTHJwampOV3BTUU9lV1IxYlpULXh1RDNldHlNY01xTHdHRndhQWYyX215d3paSHU3dnVNWWRBYWtMeW9JSDEwU1ZtMDROVUpGUWtsd2RWWmxRV04zYVVVd1ZGTkxRamRzTTJOak5sWjFUME5xVW10WFNWcElOV0pWYnpaU1ZUSjZVekIyZVhWWWNEaG5SWEZPY2tFdE1HNVNXRkpaVERSaFNWSlZaalJTVjBkVllWQm1kRTVuSUlFQxIGaXBob25lGgVwaG9uZSDkoYYkKgVhcHBsZTIkWUI0NkI5QjhFNzdENDdDNjRBQzE4RUUzQUY2NzFBMzNGODUwOgNpb3M=';
+modifiedHeaders['x-bili-locale-bin'] = 'Eg4KAnpoEgRIYW5zGgJDTg==';
+modifiedHeaders['x-bili-network-bin'] = 'CAE=';
+modifiedHeaders['x-bili-fawkes-req-bin'] = 'CgZpcGhvbmUSBHByb2QaCGM5YThlMDQ3';
+modifiedHeaders['x-bili-trace-id'] = '009024a64ea28fe4dd79fff6b365c34d:dd79fff6b365c34d:0:0';
+$done({'headers': modifiedHeaders});
